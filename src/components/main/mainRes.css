@@ -1,0 +1,15 @@
+@media ( max-width: 767px) {
+    .body_content {
+        width: 99%;
+        margin-left: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .cardyt {
+        width: 100%;
+    }
+
+    .card_img {
+        height: 170px;
+    }
+}

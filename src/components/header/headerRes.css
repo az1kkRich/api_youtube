@@ -1,0 +1,43 @@
+@media ( max-width: 767px) {
+    .navbar {
+        padding: 2px 0;
+        margin-left: -.3rem;
+    }
+    .x-menu {
+        display: none;
+    }
+    
+    .create {
+        width: 20px;
+        height: 14px;
+    }
+
+    .notifey {
+        width: 16px;
+        height: 18px;
+    }
+
+    .accaunt {
+        width: 14px;
+        height: 17px;
+    }
+
+    .logining div {
+        margin: 0 .3rem;
+    }
+
+    .logo {
+        margin-left: 0;
+        width: 70px;
+        height: 15px;
+    }
+
+    .search-input {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .iconsearch {
+        width: 3rem;
+    }
+}

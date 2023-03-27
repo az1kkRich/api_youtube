@@ -1,0 +1,183 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    z-index: 99;
+    margin-left: -2rem;
+}
+
+.x-menu {
+    height: 1vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1.8rem;
+}
+
+.bar {
+    width: 20px;
+    height: 1.5px;
+    background-color: #fff;
+    transition: .5s;
+    margin-bottom: 0;
+}
+
+.bar:before,
+.bar:after {
+    content: " ";
+    position: absolute;
+    width: inherit;
+    height: 1.5px;
+    background-color: #fff;
+    transition: .5s;
+}
+
+.bar:before {
+    transform: translateY(-.5vw);
+}
+
+.bar:after {
+    transform: translateY(.5vw);
+}
+
+.search {
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url(../imgs/youtube.png);
+    width: 90px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 50%;
+    height: 35px;
+    margin-left: 25%;
+    background-color: rgb(33, 30, 30);
+    border: 1px solid rgb(86, 83, 83);
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+    line-height: inherit;
+    color: #86b7fe;
+}
+
+.search-input:focus {
+    color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.iconsearch {
+    background-color: rgb(67, 67, 67);
+    height: 35px;
+    width: 3rem;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchi {
+    background-image: url(../imgs/search.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logining {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logining div {
+    display: flex;
+    margin: 0 1rem;
+}
+
+.create {
+    width: 26px;
+    height: 20px;
+    background-image: url(../imgs/create-video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.notifey {
+    width: 20px;
+    height: 22px;
+    background-image: url(../imgs/notifications.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.accaunt {
+    width: 20px;
+    height: 24px;
+    background-image: url(../imgs/person.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.acc {
+    display: flex;
+    justify-content: end;
+}
+
+.homei {
+    width: 3rem;
+    height: 3.2rem;
+    background-image: url(../imgs/homei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin: 0 0 1rem 0;
+}
+
+.shorti {
+    width: 3rem;
+    height: 3.2rem;
+    background-image: url(../imgs/shorti.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin: 1rem 0;
+
+}
+
+.subsi {
+    width: 3rem;
+    height: 3.2rem;
+    background-image: url(../imgs/subi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin: 1rem 0;
+
+}
+
+.libraryi {
+    width: 3rem;
+    height: 3.2rem;
+    background-image: url(../imgs/libi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
