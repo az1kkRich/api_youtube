@@ -18,8 +18,6 @@ function LeftNavbar(props) {
 
                 </Link> 
                     <div className="libraryi"></div>
-                
-
             </div>
         </>
     );

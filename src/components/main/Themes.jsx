@@ -5,8 +5,7 @@ import React from 'react';
 function Themes({ selectedCategoryHandler, selectedCategory, selectedButton }) {
 
     const category = [
-        { name: 'Hamma' },
-        { name: 'Aralash' },
+        { name: 'Music' },
         { name: 'Coding' },
         { name: 'ReactJS' },
         { name: 'JavaScript' },

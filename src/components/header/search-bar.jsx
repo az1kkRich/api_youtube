@@ -27,7 +27,7 @@ function SearchBar(props) {
                 
                 <input
                     onChange={e => setValue(e.target.value)}
-                    value={value}
+                    value={value} 
                     type="search"
                     placeholder='Qidirish'
                     className='search-input'    

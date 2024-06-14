@@ -5,7 +5,7 @@ import './headerRes.css';
 import SearchBar from './search-bar';
 
 
-function Navbar(props) {
+function  Navbar(props) {
     return (
         <>
             <div className="container">

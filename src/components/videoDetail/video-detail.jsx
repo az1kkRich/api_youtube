@@ -12,7 +12,7 @@ import { RxStopwatch } from 'react-icons/rx';
 
 function VideoDetail(props) {
     const [videoDetail, setVideoDetail] = useState(null)
-    const { id } = useParams()
+    const { id } = useParams() 
 
     useEffect(() => {
         const getData = async () => {
@@ -42,7 +42,7 @@ function VideoDetail(props) {
                             <Stack direction="row" spacing={1}>
                                 <Avatar src={videoDetail?.snippet?.thumbnails?.default?.url} />
                             </Stack>
-                            <div className="cardparas">
+                            <div className="cardparas"> 
                                 <p className='cardp'>{videoDetail?.snippet?.channelTitle}</p>
                             </div>
                         </div>
