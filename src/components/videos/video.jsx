@@ -10,7 +10,7 @@ function Search({ videos }) {
                 {videos.map(item => (
                     
                         <div className='cardyt' key={item.id.videoId}>
-                            {item.id.videoId && <VideoCard video={item} />}
+                            {item.id.kind && <VideoCard video={item} />}
                             {item.id.channelId && <ChanelCard video={item} />}
                         </div>
                     

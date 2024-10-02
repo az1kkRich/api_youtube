@@ -15,6 +15,8 @@ function Search(props) {
             try {
                 const data = await ApiServices.fetching(`search?part=snippet&q=${id}`)
                 setVideos(data?.items)
+                console.log(data);
+
             }
             catch (error) {
                 console.log(error);
