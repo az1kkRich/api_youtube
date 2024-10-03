@@ -8,7 +8,7 @@ import Themes from './Themes';
 
 
 function Main(props) {
-    const [selectedCategory, setSelectedCategory] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState('Uzbekistan');
     const [selectedButton, setSelectedButton] = useState(false)
     const [videos, setVideos] = useState([])
 

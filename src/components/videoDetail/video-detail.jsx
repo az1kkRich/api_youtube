@@ -29,6 +29,7 @@ function VideoDetail(props) {
         getData()
     }, [id])
 
+    if (!videoDetail?.snippet) return "Loading";
 
     console.log(videoDetail);
     return (

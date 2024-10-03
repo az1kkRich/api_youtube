@@ -92,6 +92,20 @@
     cursor: pointer;
 }
 
+.mix {
+    color: rgb(255, 0, 0);
+    font-size: medium;
+}
+
+.playlist_img {
+    box-shadow: rgba(215, 196, 208, 0.4) 0px 5px, rgba(178, 156, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.playlist {
+    width: 100%;
+    height: 45vw;
+}
+
 .sliwep button:first-child {
     margin: .5rem .3rem .5rem .5rem;
 }

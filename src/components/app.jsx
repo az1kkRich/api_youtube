@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Main, Chanel, Header, Video, Search, LeftNavbar, VideoDetail } from './';
+import { Main, Header, Video, Search, LeftNavbar, VideoDetail } from './';
+import PlaylistCard from './playlist/playlistCard';
 
 function App(props) {
     return (
@@ -14,8 +15,8 @@ function App(props) {
                     <div className="body_content mt-5">
                         <Routes>
                             <Route path='/' element={<Main />} />
-                            <Route path='/chanel' element={<Chanel />} />
                             <Route path='/video/:id' element={<VideoDetail />} />
+                            <Route path='/playlist/:id' element={<PlaylistCard />} />
                             <Route path='/search/:id' element={<Search />} />
                         </Routes>
                     </div>
